@@ -14,7 +14,7 @@ namespace ToDoMauiClient.Models
             get => _id;
             set 
             {
-                if (_id == value)
+                if (_id == value)   
                     return;
                 _id = value;
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Id)));
@@ -34,6 +34,7 @@ namespace ToDoMauiClient.Models
             }
         }
         public int Gateway { get; set; }
+        //testttt
         public event PropertyChangedEventHandler PropertyChanged;
     }
 }
