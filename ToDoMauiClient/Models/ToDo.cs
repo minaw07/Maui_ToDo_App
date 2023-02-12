@@ -33,7 +33,7 @@ namespace ToDoMauiClient.Models
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(ToDoName)));
             }
         }
-
+        public int test { get; set; }
         public event PropertyChangedEventHandler PropertyChanged;
     }
 }
